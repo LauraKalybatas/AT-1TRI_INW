@@ -6,12 +6,12 @@ import CardTiktok from "../Cards/Tiktok.jsx"
 function Cards(){
     return(
         <> 
-        <div class="cards">
-        <CardYoutube></CardYoutube>
-        <CardTiktok></CardTiktok>
-        <CardFacebook></CardFacebook>
-        <CardInstagram></CardInstagram>
-        </div> 
+            <div class="cards">
+                <CardYoutube></CardYoutube>
+                <CardTiktok></CardTiktok>
+                <CardFacebook></CardFacebook>
+                <CardInstagram></CardInstagram>
+            </div> 
         </>
     )
 }

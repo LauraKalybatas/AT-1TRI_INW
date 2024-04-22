@@ -1,12 +1,12 @@
 import MainText3 from "./MainText3"
 
-function MainBody3(){
+function MainContent3(){
     return(
         <>
-            <div class="MainBody">
+            <div class="MainContent">
                 <MainText3></MainText3>
             </div>
         </>
     )
 }
-export default MainBody3
+export default MainContent3

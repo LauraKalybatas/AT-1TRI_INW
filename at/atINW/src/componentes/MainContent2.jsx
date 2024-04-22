@@ -3,10 +3,10 @@ import TextImage2 from '../img/Saved 1.png'
 import TextImage3 from '../img/Viseo Merge screen 1.png'
 import '../App.css'
 
-function MainBody2(){
+function MainContent2(){
     return(
         <>
-            <div class="MainBody">
+            <div class="MainContent">
                 <Maintext2></Maintext2>
                 <img class="TextImg2" src={TextImage3} alt=""/>
                 <img class="TextImg2" src={TextImage2} alt=""/>
@@ -14,4 +14,5 @@ function MainBody2(){
         </>
     )
 }
-export default MainBody2
+export default MainContent2
+

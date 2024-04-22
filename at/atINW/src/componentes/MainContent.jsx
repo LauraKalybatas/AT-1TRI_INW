@@ -1,10 +1,10 @@
 import Maintext from "./MainText"
 import TextImage from '../img/Hero image.png'
 
-function MainBody(){
+function MainContent(){
     return(
         <>
-            <div class="MainBody">
+            <div class="MainContent">
                 <Maintext></Maintext>
                 <img class="TextImg" src={TextImage} alt=""/>
             </div>
@@ -12,4 +12,4 @@ function MainBody(){
         </>
     )
 }
-export default MainBody
+export default MainContent
