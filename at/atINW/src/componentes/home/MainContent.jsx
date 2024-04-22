@@ -1,5 +1,5 @@
 import Maintext from "./MainText"
-import TextImage from './img/Hero image.png'
+import TextImage from '../img/Hero image.png'
 import Cards from "./cards"
 
 function MainContent(){

@@ -1,7 +1,6 @@
 import Maintext2 from "./MainText2"
-import TextImage2 from './img/Saved 1.png'
-import TextImage3 from './img/Viseo Merge screen 1.png'
-import '../App.css'
+import TextImage2 from '../img/Viseo Merge screen 1.png'
+import TextImage3 from '../img/Viseo Merge screen 1.png'
 
 function MainContent2(){
     return(

@@ -1,12 +1,12 @@
 import './App.css'
 import Navbar from './componentes/home/navbar.jsx'
-import MainContent from './componentes/home/MainContent'
+import {Outlet} from 'react-router-dom'
 
 function App() {
   return (
     <>
       <Navbar/>
-      <MainContent/>
+      <Outlet/>
     </>
   )
 }

@@ -1,4 +1,4 @@
-import '../App.css'
+
 import Formulario from './form'
 import SubImage2 from './SubImage2'
 

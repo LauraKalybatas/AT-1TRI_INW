@@ -1,4 +1,3 @@
-import '../App.css'
 import CartaoFacebook from "../Cards/Facebook.jsx"
 import CartaoYoutube from "../Cards/Youtube.jsx"
 import CartaoTiktok from "../Cards/Tiktok.jsx"
