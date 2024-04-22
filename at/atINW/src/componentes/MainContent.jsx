@@ -1,14 +1,15 @@
 import Maintext from "./MainText"
-import TextImage from '../img/Hero image.png'
+import TextImage from './img/Hero image.png'
+import Cards from "./cards"
 
 function MainContent(){
     return(
         <>
-            <div class="MainContent">
+            <div className="MainContent">
                 <Maintext></Maintext>
-                <img class="TextImg" src={TextImage} alt=""/>
+                <img className="TextImg" src={TextImage} alt=""/>
             </div>
-            <Cartoes></Cartoes>
+            <Cards></Cards>
         </>
     )
 }

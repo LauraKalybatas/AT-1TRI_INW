@@ -1,16 +1,17 @@
 import '../App.css'
-import CardFacebook from "../Cards/Facebook.jsx"
-import CardYoutube from "../Cards/Youtube.jsx"
-import CardTiktok from "../Cards/Tiktok.jsx"
+import CartaoFacebook from "./Cards/Facebook.jsx"
+import CartaoYoutube from "./Cards/Youtube.jsx"
+import CartaoTiktok from "./Cards/Tiktok.jsx"
+import CartaoInstagram from './Cards/Instagram'
 
 function Cards(){
     return(
         <> 
-            <div class="cards">
-                <CardYoutube></CardYoutube>
-                <CardTiktok></CardTiktok>
-                <CardFacebook></CardFacebook>
-                <CardInstagram></CardInstagram>
+            <div className="cards">
+                <CartaoYoutube></CartaoYoutube>
+                <CartaoTiktok></CartaoTiktok>
+                <CartaoFacebook></CartaoFacebook>
+                <CartaoInstagram></CartaoInstagram>
             </div> 
         </>
     )

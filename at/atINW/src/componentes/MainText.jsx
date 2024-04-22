@@ -3,10 +3,10 @@ import '../App.css'
 function MainText(){
 return(
     <>
-        <div class="MainText">
-            <h1 class="h1Auto">Crie seus videos online</h1>
-            <p class="intro">Transforme suas ideas em filmes memoráveis: onde a criatividade encontra a simplicidade.</p>
-            <input type="button" value="Começar Agora!" class="button"/>
+        <div className="MainText">
+            <h1 className="h1Auto">Crie seus videos online</h1>
+            <p className="intro">Transforme suas ideas em filmes memoráveis: onde a criatividade encontra a simplicidade.</p>
+            <input type="button" value="Começar Agora!" className="button"/>
         </div>
     </>
 )

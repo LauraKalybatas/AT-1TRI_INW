@@ -3,7 +3,7 @@ import MainText3 from "./MainText3"
 function MainContent3(){
     return(
         <>
-            <div class="MainContent">
+            <div className="MainContent">
                 <MainText3></MainText3>
             </div>
         </>

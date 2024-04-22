@@ -1,7 +1,7 @@
 import '../App.css'
-import Imagem1 from '../img/Frame 14468.png'
-import Imagem2 from '../img/Frame 14469.png'
-import Imagem3 from '../img/Frame 14470.png'
+import Imagem1 from './img/Frame 14468.png'
+import Imagem2 from './img/Frame 14469.png'
+import Imagem3 from './img/Frame 14470.png'
 
 
 function SubImage2(){

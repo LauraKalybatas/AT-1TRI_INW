@@ -2,14 +2,14 @@ function formulario(){
     return(
         <> 
             <form>
-                <div class="inputForms">
+                <div className="inputForms">
                     <label>Nome:</label>
-                    <input type="text" name="Email" value="" class="Input"/>
+                    <input type="text" name="Email" value="" className="Input"/>
                 </div>
 
-                <div class="inputForms">
+                <div className="inputForms">
                     <label>Email:</label>
-                    <input  type="text" name="Mensagem" value="" class="Input"/>
+                    <input  type="text" name="Mensagem" value="" className="Input"/>
                 </div>
 
                 <div className="textArea">
@@ -17,7 +17,7 @@ function formulario(){
                     <textarea id="mensagem" name="mensagem" rows="10" cols="54"></textarea>
                 </div>
 
-                <input type="button" value="Enviar Mensagem" class="botao2"/>
+                <input type="button" value="Enviar Mensagem" className="botao2"/>
             </form>
         </>
     )
