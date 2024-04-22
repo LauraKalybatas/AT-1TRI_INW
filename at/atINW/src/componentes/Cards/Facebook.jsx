@@ -3,7 +3,7 @@ import Facebook from './Facebook.png'
 function cartaoFacebook(){
     return(
         <> 
-            <div class="cartaoFacebook">
+            <div class="cardFacebook">
                 <div class="NumImg">
                     <h1 class="Numeros">03</h1>
                     <img src={Facebook} alt="facebook" class="facebook"/>

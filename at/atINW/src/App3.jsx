@@ -1,5 +1,5 @@
 import './App.css'
-import Main3 from './Componentes/MainBody3.jsx'
+import Main3 from './componentes/MainContent3.jsx'
 
 
 function App3() {
