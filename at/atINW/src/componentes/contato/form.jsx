@@ -17,7 +17,7 @@ function formulario(){
                     <textarea id="mensagem" name="mensagem" rows="10" cols="54"></textarea>
                 </div>
 
-                <input type="button" value="Enviar Mensagem" className="botao2"/>
+                <input type="button" value="Enviar Mensagem" className="button2"/>
             </form>
         </>
     )
